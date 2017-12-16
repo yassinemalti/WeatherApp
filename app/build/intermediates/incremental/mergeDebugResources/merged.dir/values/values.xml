@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr><attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <dimen name="CitySelectSize">12sp</dimen>
+    <dimen name="SmallDisplaySize">10sp</dimen>
+    <dimen name="TemperatureDisplaySize">25sp</dimen>
+    <dimen name="TimeDisplaySize">12sp</dimen>
+    <dimen name="citySelectPadding">10sp</dimen>
+    <dimen name="margins">10dp</dimen>
+    <integer name="google_play_services_version">10298000</integer>
+    <string name="Button_Txt">Get Weather</string>
+    <string name="CitySelectHint">Enter City name</string>
+    <string name="Default_City"/>
+    <string name="app_name">Weather</string>
+    <string name="citySelectPrompt">Enter City: </string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <style name="ForecastImageStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="ForecastLinearLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="ForecastSeparatorStyle">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/forecast1</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <style name="ForecastTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">#f8f4ff</item>
+        <item name="android:textSize">@dimen/SmallDisplaySize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="HourlyForecastImageStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top|center_vertical</item>
+    </style>
+    <style name="HourlyForecastTextStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">#f8f4ff</item>
+        <item name="android:textSize">@dimen/SmallDisplaySize</item>
+        <item name="android:gravity">bottom|center_vertical</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="HourlyRaindropImageStyle">
+    <item name="android:layout_width">30dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">top|center_vertical</item>
+    </style>
+    <style name="MinMaxTempTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">#f8f4ff</item>
+        <item name="android:textSize">@dimen/SmallDisplaySize</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="RaindropImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="TimeDisplayStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">#f8f4ff</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/TimeDisplaySize</item>
+    </style>
+    <style name="WeatherForecastTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">#f8f4ff</item>
+        <item name="android:textSize">@dimen/SmallDisplaySize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+</resources>

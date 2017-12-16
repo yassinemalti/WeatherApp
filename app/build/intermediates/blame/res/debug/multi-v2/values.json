@@ -1,0 +1,96 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yassinemalti/AndroidStudioProjects/WeatherApp-master 31/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/yassinemalti/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.1.aar/1f02f3da2da6b1b169f13241d480c32e/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "276,439",
+                        "endColumns": "63,166",
+                        "endOffsets": "339,605"
+                    },
+                    "to": {
+                        "startLines": "39,52",
+                        "startColumns": "4,4",
+                        "startOffsets": "1782,3021",
+                        "endColumns": "67,166",
+                        "endOffsets": "1845,3183"
+                    }
+                },
+                {
+                    "source": "/Users/yassinemalti/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.1.aar/4e8a7c825ea543f0b3ffa9fe998dc51e/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "215,301,377,463,549,625,702,778,951,1052,1233,1354,1457,1637,1756,1855,2043,2144,2325,2446,2621,2765,2824,2882",
+                        "endColumns": "85,75,85,85,75,76,75,75,100,180,120,102,179,118,98,187,100,180,120,174,143,58,57,74",
+                        "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1854,2042,2143,2324,2445,2620,2764,2823,2881,2956"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,45,46,47,48,49,50,51,53,54,55,56,57,58,59,60,61",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,195,275,365,455,535,616,696,2097,2202,2383,2508,2615,2795,2918,3188,3376,3481,3662,3787,3962,4110,4173,4235",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,102,187,104,180,124,174,147,62,61,78",
+                        "endOffsets": "190,270,360,450,530,611,691,771,2197,2378,2503,2610,2790,2913,3016,3371,3476,3657,3782,3957,4105,4168,4230,4309"
+                    }
+                },
+                {
+                    "source": "/Users/yassinemalti/AndroidStudioProjects/WeatherApp-master 31/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "28,47,41,2,64,75,70,20,35,55,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1463,2397,2085,55,3245,3724,3491,1030,1777,2815,543",
+                        "endLines": "33,54,46,10,68,83,74,27,40,62,19",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1771,2810,2392,538,3485,4201,3719,1458,2080,3239,1025"
+                    },
+                    "to": {
+                        "startLines": "62,68,76,82,91,96,105,110,118,124,132",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4314,4625,5039,5351,5837,6082,6564,6797,7230,7536,7965",
+                        "endLines": "67,75,81,90,95,104,109,117,123,131,140",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "4620,5034,5346,5832,6077,6559,6792,7225,7531,7960,8445"
+                    }
+                },
+                {
+                    "source": "/Users/yassinemalti/AndroidStudioProjects/WeatherApp-master 31/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,5,4,2,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,197,153,55,258",
+                        "endColumns": "52,60,43,44,59",
+                        "endOffsets": "148,253,192,95,313"
+                    },
+                    "to": {
+                        "startLines": "40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1850,1901,1960,1994,2039",
+                        "endColumns": "50,58,33,44,57",
+                        "endOffsets": "1896,1955,1989,2034,2092"
+                    }
+                },
+                {
+                    "source": "/Users/yassinemalti/AndroidStudioProjects/WeatherApp-master 31/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "5,4,2,3,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "204,156,55,109,250,299",
+                        "endColumns": "45,47,53,46,48,40",
+                        "endOffsets": "245,199,104,151,294,335"
+                    },
+                    "to": {
+                        "startLines": "33,34,35,36,37,38",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1499,1545,1593,1647,1694,1743",
+                        "endColumns": "45,47,53,46,48,38",
+                        "endOffsets": "1540,1588,1642,1689,1738,1777"
+                    }
+                }
+            ]
+        }
+    ]
+}
